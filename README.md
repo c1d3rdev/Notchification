@@ -12,6 +12,7 @@ These were build using iOSOpenDev Xcode toolset, in addition to theos
 I no longer actively maintain these tweaks, however, I will do my best to answer questions and provide direction to anyone interested in contributing, or just generally curious about the software.
 
 ## Donate
+Any donations are greatly appreceated!
 
 | Bitcoin  | Ethereum | PayPal |
 | ------------- | ------------- | ------------- |
