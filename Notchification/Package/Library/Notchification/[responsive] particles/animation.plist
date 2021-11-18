@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<string>Left.particle1.Fill 1.Color</string>
+		<string>Right.particle1.Fill 1.Color</string>
+		<string>Left.particle2.Fill 1.Color</string>
+		<string>Right.particle2.Fill 1.Color</string>
+		<string>Left.particle3.Fill 1.Color</string>
+		<string>Right.particle3.Fill 1.Color</string>
+		<string>Left.particle4.Fill 1.Color</string>
+		<string>Right.particle4.Fill 1.Color</string>
+		<string>Left.particle5.Fill 1.Color</string>
+		<string>Right.particle5.Fill 1.Color</string>
+		<string>Left.particle6.Fill 1.Color</string>
+		<string>Right.particle6.Fill 1.Color</string>
+		<string>Left.particle7.Fill 1.Color</string>
+		<string>Right.particle7.Fill 1.Color</string>
+		<string>Left.particle8.Fill 1.Color</string>
+		<string>Right.particle8.Fill 1.Color</string>
+		<string>Left.particle9.Fill 1.Color</string>
+		<string>Right.particle9.Fill 1.Color</string>
+		<string>Left.particle10.Fill 1.Color</string>
+		<string>Right.particle10.Fill 1.Color</string>
+		<string>Left.particle11.Fill 1.Color</string>
+		<string>Right.particle11.Fill 1.Color</string>
+		<string>Left.particle12.Fill 1.Color</string>
+		<string>Right.particle12.Fill 1.Color</string>
+		<string>Left.particle13.Fill 1.Color</string>
+		<string>Right.particle13.Fill 1.Color</string>
+		<string>Left.particle14.Fill 1.Color</string>
+		<string>Right.particle14.Fill 1.Color</string>
+	</array>
+</dict>
+</plist>

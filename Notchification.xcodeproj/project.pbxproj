@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466E6C20D90CD97C740113E5 /* libPods-NotchificationSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092528CFFD6B75BC3EDCB1DE /* libPods-NotchificationSettings.a */; };
+		C712DC7423885E55002A6F00 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C7486B0623845ED800EAB6B3 /* libMobileGestalt.tbd */; };
+		C71486E624087E7900C4AE0B /* librocketbootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71486E524087E7900C4AE0B /* librocketbootstrap.dylib */; };
+		C71486E724087E8600C4AE0B /* librocketbootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71486E524087E7900C4AE0B /* librocketbootstrap.dylib */; };
+		C71E864A2131C0D4006F2EB0 /* PHVerticalAdjustmentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E86492131C0D3006F2EB0 /* PHVerticalAdjustmentTableCell.m */; };
+		C72100172226513C00D33F6B /* EWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CFE53E20FBCC5500C43FC2 /* EWindow.h */; };
+		C72100182226513D00D33F6B /* EWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CFE53E20FBCC5500C43FC2 /* EWindow.h */; };
+		C72A6092248D72EB00C63734 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C72A6091248D72EB00C63734 /* libMobileGestalt.tbd */; };
+		C731E47520FE73DC008DC1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C784CF5820FBCB9E00F41B54 /* Foundation.framework */; };
+		C731E47620FE73DC008DC1FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7358C4020FD1ADF00C7C38A /* UIKit.framework */; };
+		C731E48120FE73DC008DC1FE /* NotchificationSettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = C731E48020FE73DC008DC1FE /* NotchificationSettingsController.h */; };
+		C731E48320FE73DC008DC1FE /* NotchificationSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C731E48220FE73DC008DC1FE /* NotchificationSettingsController.m */; };
+		C731E49620FE744F008DC1FE /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7358D0020FD1F2B00C7C38A /* Preferences.framework */; };
+		C731E49A20FE7C29008DC1FE /* AnimationSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = C731E49820FE7C29008DC1FE /* AnimationSelector.h */; };
+		C731E49B20FE7C29008DC1FE /* AnimationSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = C731E49920FE7C29008DC1FE /* AnimationSelector.m */; };
+		C731E49C20FE7D22008DC1FE /* EWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE54020FBCC5500C43FC2 /* EWindow.m */; };
+		C7358D8220FD26C500C7C38A /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFE53920FBCC0300C43FC2 /* libsubstrate.dylib */; };
+		C76721CE2100E7E0008D734A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721CD2100E7E0008D734A /* Accelerate.framework */; };
+		C76721D02100E7E6008D734A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721CF2100E7E6008D734A /* AudioToolbox.framework */; };
+		C76721D22100E7EC008D734A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721D12100E7EC008D734A /* AVFoundation.framework */; };
+		C76721D42100E7F1008D734A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721D32100E7F1008D734A /* CoreLocation.framework */; };
+		C76721D62100E7F5008D734A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721D52100E7F5008D734A /* CoreMedia.framework */; };
+		C76721D82100E7FB008D734A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721D72100E7FB008D734A /* MessageUI.framework */; };
+		C76721DA2100E7FF008D734A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721D92100E7FF008D734A /* MobileCoreServices.framework */; };
+		C76721DC2100E804008D734A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721DB2100E804008D734A /* SystemConfiguration.framework */; };
+		C76721DE2100E809008D734A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76721DD2100E808008D734A /* SafariServices.framework */; };
+		C775A6142299B9C900F955EE /* libEnclave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C775A6132299B9C900F955EE /* libEnclave.a */; };
+		C775A6152299B9D700F955EE /* libEnclave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C775A6132299B9C900F955EE /* libEnclave.a */; };
+		C784CF5920FBCB9E00F41B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C784CF5820FBCB9E00F41B54 /* Foundation.framework */; };
+		C784CF6A20FBCB9E00F41B54 /* Notchification.mm in Sources */ = {isa = PBXBuildFile; fileRef = C784CF6920FBCB9E00F41B54 /* Notchification.mm */; };
+		C7975C9E2408399500E327A5 /* NotchOLEDDelayTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7975C9D2408399500E327A5 /* NotchOLEDDelayTableCell.m */; };
+		C7A6F27522791EF60060CBC6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A6F27422791EF60060CBC6 /* WebKit.framework */; };
+		C7CA58A021307E7600AD0639 /* libcolorpicker.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA589F21307E7600AD0639 /* libcolorpicker.dylib */; };
+		C7CA58A121307E8200AD0639 /* libcolorpicker.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CA589F21307E7600AD0639 /* libcolorpicker.dylib */; };
+		C7E18B0D210B7E76009FE6CB /* CCColorCube.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E18B09210B7E75009FE6CB /* CCColorCube.h */; };
+		C7E18B0E210B7E76009FE6CB /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E18B0A210B7E75009FE6CB /* CCLocalMaximum.m */; };
+		C7E18B0F210B7E76009FE6CB /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E18B0B210B7E76009FE6CB /* CCColorCube.m */; };
+		C7E18B10210B7E76009FE6CB /* CCLocalMaximum.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E18B0C210B7E76009FE6CB /* CCLocalMaximum.h */; };
+		C7E3ADDA210B813200FDEBB7 /* CCColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E18B0B210B7E76009FE6CB /* CCColorCube.m */; };
+		C7E3ADDB210B813400FDEBB7 /* CCLocalMaximum.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E18B0A210B7E75009FE6CB /* CCLocalMaximum.m */; };
+		C7F958982110AD7A00BD7572 /* EWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CFE54020FBCC5500C43FC2 /* EWindow.m */; };
+		C7FAFD18210E42310044FE35 /* libapplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FAFD17210E42310044FE35 /* libapplist.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7BB0D422173EF6B0044B4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C784CF4B20FBCB9E00F41B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C731E47320FE73DC008DC1FE;
+			remoteInfo = NotchificationSettings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C76D1728228C831D0061A3C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092528CFFD6B75BC3EDCB1DE /* libPods-NotchificationSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotchificationSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369DDFB7861B82E196AF7D86 /* Pods-NotchificationSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchificationSettings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotchificationSettings/Pods-NotchificationSettings.debug.xcconfig"; sourceTree = "<group>"; };
+		C7047D1F238EF79E008BAA45 /* changelog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = changelog.plist; sourceTree = SOURCE_ROOT; };
+		C71486E424087CCD00C4AE0B /* IPC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPC.h; sourceTree = "<group>"; };
+		C71486E524087E7900C4AE0B /* librocketbootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librocketbootstrap.dylib; path = ../../../../../../../opt/iOSOpenDev/lib/librocketbootstrap.dylib; sourceTree = "<group>"; };
+		C71E86492131C0D3006F2EB0 /* PHVerticalAdjustmentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHVerticalAdjustmentTableCell.m; sourceTree = "<group>"; };
+		C72A6091248D72EB00C63734 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libMobileGestalt.tbd; sourceTree = DEVELOPER_DIR; };
+		C731E35220FE360F008DC1FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C731E46E20FE4456008DC1FE /* interfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interfaces.h; sourceTree = "<group>"; };
+		C731E47420FE73DC008DC1FE /* NotchificationSettings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotchificationSettings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C731E47B20FE73DC008DC1FE /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C731E47C20FE73DC008DC1FE /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C731E47E20FE73DC008DC1FE /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C731E47F20FE73DC008DC1FE /* NotchificationSettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotchificationSettings-Info.plist"; sourceTree = "<group>"; };
+		C731E48020FE73DC008DC1FE /* NotchificationSettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotchificationSettingsController.h; sourceTree = "<group>"; };
+		C731E48220FE73DC008DC1FE /* NotchificationSettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotchificationSettingsController.m; sourceTree = "<group>"; };
+		C731E48720FE73DC008DC1FE /* NotchificationSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = NotchificationSettings.plist; path = Package/Library/PreferenceLoader/Preferences/NotchificationSettings.plist; sourceTree = "<group>"; };
+		C731E48A20FE73DC008DC1FE /* NotchificationSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = NotchificationSettings.plist; path = Package/Library/PreferenceBundles/NotchificationSettings.bundle/NotchificationSettings.plist; sourceTree = "<group>"; };
+		C731E48B20FE73DC008DC1FE /* NotchificationSettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NotchificationSettingsIcon.png; path = Package/Library/PreferenceBundles/NotchificationSettings.bundle/NotchificationSettingsIcon.png; sourceTree = "<group>"; };
+		C731E48C20FE73DC008DC1FE /* NotchificationSettingsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NotchificationSettingsIcon@2x.png"; path = "Package/Library/PreferenceBundles/NotchificationSettings.bundle/NotchificationSettingsIcon@2x.png"; sourceTree = "<group>"; };
+		C731E49220FE73DC008DC1FE /* NotchificationSettings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotchificationSettings-Prefix.pch"; sourceTree = "<group>"; };
+		C731E49820FE7C29008DC1FE /* AnimationSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationSelector.h; sourceTree = "<group>"; };
+		C731E49920FE7C29008DC1FE /* AnimationSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSelector.m; sourceTree = "<group>"; };
+		C7358C4020FD1ADF00C7C38A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7358C4220FD1ADF00C7C38A /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Library/Frameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		C7358D0020FD1F2B00C7C38A /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = ../../../../../../../opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks/Preferences.framework; sourceTree = "<group>"; };
+		C7358D0220FD1F3900C7C38A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C7358D0420FD1F4100C7C38A /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		C7358D0620FD1F7E00C7C38A /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = ../../../../../../../opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks/IOSurface.framework; sourceTree = "<group>"; };
+		C7358D0920FD1FE800C7C38A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = ../../../../../../../opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = "<group>"; };
+		C7358D0C20FD203800C7C38A /* Preferences.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = Preferences.tbd; path = ../../../../../../../opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks/Preferences.framework/Preferences.tbd; sourceTree = "<group>"; };
+		C7358D0E20FD20E300C7C38A /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = ../../../../../../../opt/iOSOpenDev/frameworks/Preferences.framework; sourceTree = "<group>"; };
+		C7358D5E20FD22DE00C7C38A /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/Preferences.framework; sourceTree = DEVELOPER_DIR; };
+		C7486B0623845ED800EAB6B3 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
+		C7486B0E238461D200EAB6B3 /* libMobileGestalt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMobileGestalt.dylib; path = ../../../../../../../usr/lib/libMobileGestalt.dylib; sourceTree = "<group>"; };
+		C748D2ED228DB82B00B84BE5 /* libEnclave.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEnclave.dylib; path = ../../../../../../../opt/iOSOpenDev/lib/libEnclave.dylib; sourceTree = "<group>"; };
+		C767219420FFBF09008D734A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C76721CD2100E7E0008D734A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C76721CF2100E7E6008D734A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C76721D12100E7EC008D734A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C76721D32100E7F1008D734A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C76721D52100E7F5008D734A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C76721D72100E7FB008D734A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C76721D92100E7FF008D734A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C76721DB2100E804008D734A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C76721DD2100E808008D734A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		C775A6132299B9C900F955EE /* libEnclave.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEnclave.a; path = ../../../../../../../opt/iOSOpenDev/lib/libEnclave.a; sourceTree = "<group>"; };
+		C784CF5520FBCB9E00F41B54 /* Notchification.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Notchification.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C784CF5820FBCB9E00F41B54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C784CF5D20FBCB9E00F41B54 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C784CF5E20FBCB9E00F41B54 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C784CF6020FBCB9E00F41B54 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C784CF6720FBCB9E00F41B54 /* Notchification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notchification-Prefix.pch"; sourceTree = "<group>"; };
+		C784CF6820FBCB9E00F41B54 /* Notchification.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = Notchification.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C784CF6920FBCB9E00F41B54 /* Notchification.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Notchification.mm; sourceTree = "<group>"; };
+		C784CF6D20FBCB9E00F41B54 /* Notchification.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Notchification.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Notchification.plist; sourceTree = "<group>"; };
+		C7975C9D2408399500E327A5 /* NotchOLEDDelayTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotchOLEDDelayTableCell.m; sourceTree = "<group>"; };
+		C7A6F27422791EF60060CBC6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C7CA589F21307E7600AD0639 /* libcolorpicker.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcolorpicker.dylib; path = ../../../../../../../opt/iOSOpenDev/lib/libcolorpicker.dylib; sourceTree = "<group>"; };
+		C7CFE53920FBCC0300C43FC2 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		C7CFE53E20FBCC5500C43FC2 /* EWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWindow.h; sourceTree = "<group>"; };
+		C7CFE54020FBCC5500C43FC2 /* EWindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = EWindow.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C7E18B09210B7E75009FE6CB /* CCColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColorCube.h; sourceTree = "<group>"; };
+		C7E18B0A210B7E75009FE6CB /* CCLocalMaximum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocalMaximum.m; sourceTree = "<group>"; };
+		C7E18B0B210B7E76009FE6CB /* CCColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorCube.m; sourceTree = "<group>"; };
+		C7E18B0C210B7E76009FE6CB /* CCLocalMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocalMaximum.h; sourceTree = "<group>"; };
+		C7FAFD17210E42310044FE35 /* libapplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libapplist.dylib; path = ../../../../../../../opt/iOSOpenDev/lib/libapplist.dylib; sourceTree = "<group>"; };
+		CF5917048CCB5EF69CCF074E /* Pods-NotchificationSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchificationSettings.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotchificationSettings/Pods-NotchificationSettings.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C731E47020FE73DC008DC1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72A6092248D72EB00C63734 /* libMobileGestalt.tbd in Frameworks */,
+				C71486E724087E8600C4AE0B /* librocketbootstrap.dylib in Frameworks */,
+				C775A6142299B9C900F955EE /* libEnclave.a in Frameworks */,
+				C7A6F27522791EF60060CBC6 /* WebKit.framework in Frameworks */,
+				C7CA58A021307E7600AD0639 /* libcolorpicker.dylib in Frameworks */,
+				C7FAFD18210E42310044FE35 /* libapplist.dylib in Frameworks */,
+				C76721DE2100E809008D734A /* SafariServices.framework in Frameworks */,
+				C76721DC2100E804008D734A /* SystemConfiguration.framework in Frameworks */,
+				C76721DA2100E7FF008D734A /* MobileCoreServices.framework in Frameworks */,
+				C76721D82100E7FB008D734A /* MessageUI.framework in Frameworks */,
+				C76721D62100E7F5008D734A /* CoreMedia.framework in Frameworks */,
+				C76721D42100E7F1008D734A /* CoreLocation.framework in Frameworks */,
+				C76721D22100E7EC008D734A /* AVFoundation.framework in Frameworks */,
+				C76721D02100E7E6008D734A /* AudioToolbox.framework in Frameworks */,
+				C76721CE2100E7E0008D734A /* Accelerate.framework in Frameworks */,
+				C731E49620FE744F008DC1FE /* Preferences.framework in Frameworks */,
+				C731E47520FE73DC008DC1FE /* Foundation.framework in Frameworks */,
+				C731E47620FE73DC008DC1FE /* UIKit.framework in Frameworks */,
+				466E6C20D90CD97C740113E5 /* libPods-NotchificationSettings.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C784CF5120FBCB9E00F41B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71486E624087E7900C4AE0B /* librocketbootstrap.dylib in Frameworks */,
+				C712DC7423885E55002A6F00 /* libMobileGestalt.tbd in Frameworks */,
+				C775A6152299B9D700F955EE /* libEnclave.a in Frameworks */,
+				C7CA58A121307E8200AD0639 /* libcolorpicker.dylib in Frameworks */,
+				C7358D8220FD26C500C7C38A /* libsubstrate.dylib in Frameworks */,
+				C784CF5920FBCB9E00F41B54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C731E47820FE73DC008DC1FE /* NotchificationSettings */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48020FE73DC008DC1FE /* NotchificationSettingsController.h */,
+				C731E48220FE73DC008DC1FE /* NotchificationSettingsController.m */,
+				C731E49820FE7C29008DC1FE /* AnimationSelector.h */,
+				C731E49920FE7C29008DC1FE /* AnimationSelector.m */,
+				C71E86492131C0D3006F2EB0 /* PHVerticalAdjustmentTableCell.m */,
+				C7975C9D2408399500E327A5 /* NotchOLEDDelayTableCell.m */,
+				C731E47920FE73DC008DC1FE /* Package */,
+				C731E47D20FE73DC008DC1FE /* Supporting Files */,
+			);
+			path = NotchificationSettings;
+			sourceTree = "<group>";
+		};
+		C731E47920FE73DC008DC1FE /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C731E47A20FE73DC008DC1FE /* DEBIAN */,
+				C731E48420FE73DC008DC1FE /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C731E47A20FE73DC008DC1FE /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C731E47B20FE73DC008DC1FE /* control.txt */,
+				C731E47C20FE73DC008DC1FE /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C731E47D20FE73DC008DC1FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C731E47E20FE73DC008DC1FE /* PackageVersion.plist */,
+				C731E47F20FE73DC008DC1FE /* NotchificationSettings-Info.plist */,
+				C731E49220FE73DC008DC1FE /* NotchificationSettings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C731E48420FE73DC008DC1FE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48520FE73DC008DC1FE /* PreferenceLoader */,
+				C731E48820FE73DC008DC1FE /* PreferenceBundles */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C731E48520FE73DC008DC1FE /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48620FE73DC008DC1FE /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		C731E48620FE73DC008DC1FE /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48720FE73DC008DC1FE /* NotchificationSettings.plist */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		C731E48820FE73DC008DC1FE /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48920FE73DC008DC1FE /* ___PACKAGENAME___.bundle */,
+			);
+			name = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		C731E48920FE73DC008DC1FE /* ___PACKAGENAME___.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				C731E48A20FE73DC008DC1FE /* NotchificationSettings.plist */,
+				C731E48B20FE73DC008DC1FE /* NotchificationSettingsIcon.png */,
+				C731E48C20FE73DC008DC1FE /* NotchificationSettingsIcon@2x.png */,
+			);
+			name = "___PACKAGENAME___.bundle";
+			sourceTree = "<group>";
+		};
+		C784CF4A20FBCB9E00F41B54 = {
+			isa = PBXGroup;
+			children = (
+				C7047D1F238EF79E008BAA45 /* changelog.plist */,
+				C784CF5A20FBCB9E00F41B54 /* Notchification */,
+				C731E47820FE73DC008DC1FE /* NotchificationSettings */,
+				C784CF5720FBCB9E00F41B54 /* Frameworks */,
+				C784CF5620FBCB9E00F41B54 /* Products */,
+				DDCB6599A98F0D25421203E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C784CF5620FBCB9E00F41B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF5520FBCB9E00F41B54 /* Notchification.dylib */,
+				C731E47420FE73DC008DC1FE /* NotchificationSettings.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C784CF5720FBCB9E00F41B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72A6091248D72EB00C63734 /* libMobileGestalt.tbd */,
+				C71486E524087E7900C4AE0B /* librocketbootstrap.dylib */,
+				C7486B0E238461D200EAB6B3 /* libMobileGestalt.dylib */,
+				C7486B0623845ED800EAB6B3 /* libMobileGestalt.tbd */,
+				C775A6132299B9C900F955EE /* libEnclave.a */,
+				C748D2ED228DB82B00B84BE5 /* libEnclave.dylib */,
+				C7A6F27422791EF60060CBC6 /* WebKit.framework */,
+				C7CA589F21307E7600AD0639 /* libcolorpicker.dylib */,
+				C7FAFD17210E42310044FE35 /* libapplist.dylib */,
+				C76721DD2100E808008D734A /* SafariServices.framework */,
+				C76721DB2100E804008D734A /* SystemConfiguration.framework */,
+				C76721D92100E7FF008D734A /* MobileCoreServices.framework */,
+				C76721D72100E7FB008D734A /* MessageUI.framework */,
+				C76721D52100E7F5008D734A /* CoreMedia.framework */,
+				C76721D32100E7F1008D734A /* CoreLocation.framework */,
+				C76721D12100E7EC008D734A /* AVFoundation.framework */,
+				C76721CF2100E7E6008D734A /* AudioToolbox.framework */,
+				C76721CD2100E7E0008D734A /* Accelerate.framework */,
+				C767219420FFBF09008D734A /* UserNotifications.framework */,
+				C7358D0E20FD20E300C7C38A /* Preferences.framework */,
+				C7358D5E20FD22DE00C7C38A /* Preferences.framework */,
+				C7358D0C20FD203800C7C38A /* Preferences.tbd */,
+				C7358D0920FD1FE800C7C38A /* CoreImage.framework */,
+				C7358D0420FD1F4100C7C38A /* IOSurface.framework */,
+				C7358D0620FD1F7E00C7C38A /* IOSurface.framework */,
+				C7358D0220FD1F3900C7C38A /* CoreImage.framework */,
+				C7358D0020FD1F2B00C7C38A /* Preferences.framework */,
+				C7CFE53920FBCC0300C43FC2 /* libsubstrate.dylib */,
+				C784CF5820FBCB9E00F41B54 /* Foundation.framework */,
+				C7358C4020FD1ADF00C7C38A /* UIKit.framework */,
+				C7358C4220FD1ADF00C7C38A /* Preferences.framework */,
+				C731E35220FE360F008DC1FE /* JavaScriptCore.framework */,
+				092528CFFD6B75BC3EDCB1DE /* libPods-NotchificationSettings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C784CF5A20FBCB9E00F41B54 /* Notchification */ = {
+			isa = PBXGroup;
+			children = (
+				C71486E424087CCD00C4AE0B /* IPC.h */,
+				C731E46E20FE4456008DC1FE /* interfaces.h */,
+				C784CF6820FBCB9E00F41B54 /* Notchification.xm */,
+				C784CF6920FBCB9E00F41B54 /* Notchification.mm */,
+				C7CFE53E20FBCC5500C43FC2 /* EWindow.h */,
+				C7CFE54020FBCC5500C43FC2 /* EWindow.m */,
+				C7E18B11210B7E7A009FE6CB /* ColorCube */,
+				C784CF5B20FBCB9E00F41B54 /* Package */,
+				C784CF5F20FBCB9E00F41B54 /* Supporting Files */,
+			);
+			path = Notchification;
+			sourceTree = "<group>";
+		};
+		C784CF5B20FBCB9E00F41B54 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF5C20FBCB9E00F41B54 /* DEBIAN */,
+				C784CF6120FBCB9E00F41B54 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C784CF5C20FBCB9E00F41B54 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF5D20FBCB9E00F41B54 /* control.txt */,
+				C784CF5E20FBCB9E00F41B54 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C784CF5F20FBCB9E00F41B54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF6020FBCB9E00F41B54 /* PackageVersion.plist */,
+				C784CF6720FBCB9E00F41B54 /* Notchification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C784CF6120FBCB9E00F41B54 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF6B20FBCB9E00F41B54 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C784CF6B20FBCB9E00F41B54 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF6C20FBCB9E00F41B54 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C784CF6C20FBCB9E00F41B54 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C784CF6D20FBCB9E00F41B54 /* Notchification.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		C7E18B11210B7E7A009FE6CB /* ColorCube */ = {
+			isa = PBXGroup;
+			children = (
+				C7E18B09210B7E75009FE6CB /* CCColorCube.h */,
+				C7E18B0B210B7E76009FE6CB /* CCColorCube.m */,
+				C7E18B0C210B7E76009FE6CB /* CCLocalMaximum.h */,
+				C7E18B0A210B7E75009FE6CB /* CCLocalMaximum.m */,
+			);
+			name = ColorCube;
+			sourceTree = "<group>";
+		};
+		DDCB6599A98F0D25421203E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				369DDFB7861B82E196AF7D86 /* Pods-NotchificationSettings.debug.xcconfig */,
+				CF5917048CCB5EF69CCF074E /* Pods-NotchificationSettings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C731E47120FE73DC008DC1FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72100172226513C00D33F6B /* EWindow.h in Headers */,
+				C731E49A20FE7C29008DC1FE /* AnimationSelector.h in Headers */,
+				C731E48120FE73DC008DC1FE /* NotchificationSettingsController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C784CF5220FBCB9E00F41B54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E18B0D210B7E76009FE6CB /* CCColorCube.h in Headers */,
+				C72100182226513D00D33F6B /* EWindow.h in Headers */,
+				C7E18B10210B7E76009FE6CB /* CCLocalMaximum.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C731E47320FE73DC008DC1FE /* NotchificationSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C731E49320FE73DC008DC1FE /* Build configuration list for PBXNativeTarget "NotchificationSettings" */;
+			buildPhases = (
+				D1BB0E0E2EC392C4597ED85F /* [CP] Check Pods Manifest.lock */,
+				C731E46F20FE73DC008DC1FE /* Sources */,
+				C731E47020FE73DC008DC1FE /* Frameworks */,
+				C731E47120FE73DC008DC1FE /* Headers */,
+				C731E47220FE73DC008DC1FE /* ShellScript */,
+				C76D1728228C831D0061A3C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotchificationSettings;
+			productName = NotchificationSettings;
+			productReference = C731E47420FE73DC008DC1FE /* NotchificationSettings.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C784CF5420FBCB9E00F41B54 /* Notchification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C784CF7020FBCB9E00F41B54 /* Build configuration list for PBXNativeTarget "Notchification" */;
+			buildPhases = (
+				C784CF4F20FBCB9E00F41B54 /* ShellScript */,
+				C784CF5020FBCB9E00F41B54 /* Sources */,
+				C784CF5120FBCB9E00F41B54 /* Frameworks */,
+				C784CF5220FBCB9E00F41B54 /* Headers */,
+				C784CF5320FBCB9E00F41B54 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BB0D432173EF6B0044B4BC /* PBXTargetDependency */,
+			);
+			name = Notchification;
+			productName = Notchification;
+			productReference = C784CF5520FBCB9E00F41B54 /* Notchification.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C784CF4B20FBCB9E00F41B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					C731E47320FE73DC008DC1FE = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					C784CF5420FBCB9E00F41B54 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = C784CF4E20FBCB9E00F41B54 /* Build configuration list for PBXProject "Notchification" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C784CF4A20FBCB9E00F41B54;
+			productRefGroup = C784CF5620FBCB9E00F41B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C784CF5420FBCB9E00F41B54 /* Notchification */,
+				C731E47320FE73DC008DC1FE /* NotchificationSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C731E47220FE73DC008DC1FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp\n";
+		};
+		C784CF4F20FBCB9E00F41B54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp $PROJECT_DIR/changelog.plist $PROJECT_DIR/$TARGET_NAME/Package/Library/Application\\ Support/$TARGET_NAME/changelog.plist\n/opt/iOSOpenDev/bin/iosod --xcbp-logos\n";
+		};
+		C784CF5320FBCB9E00F41B54 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp\n";
+		};
+		D1BB0E0E2EC392C4597ED85F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotchificationSettings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C731E46F20FE73DC008DC1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7975C9E2408399500E327A5 /* NotchOLEDDelayTableCell.m in Sources */,
+				C7E3ADDA210B813200FDEBB7 /* CCColorCube.m in Sources */,
+				C731E48320FE73DC008DC1FE /* NotchificationSettingsController.m in Sources */,
+				C731E49C20FE7D22008DC1FE /* EWindow.m in Sources */,
+				C71E864A2131C0D4006F2EB0 /* PHVerticalAdjustmentTableCell.m in Sources */,
+				C731E49B20FE7C29008DC1FE /* AnimationSelector.m in Sources */,
+				C7E3ADDB210B813400FDEBB7 /* CCLocalMaximum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C784CF5020FBCB9E00F41B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F958982110AD7A00BD7572 /* EWindow.m in Sources */,
+				C7E18B0F210B7E76009FE6CB /* CCColorCube.m in Sources */,
+				C7E18B0E210B7E76009FE6CB /* CCLocalMaximum.m in Sources */,
+				C784CF6A20FBCB9E00F41B54 /* Notchification.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7BB0D432173EF6B0044B4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C731E47320FE73DC008DC1FE /* NotchificationSettings */;
+			targetProxy = C7BB0D422173EF6B0044B4BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C731E49420FE73DC008DC1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369DDFB7861B82E196AF7D86 /* Pods-NotchificationSettings.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6DPBQA62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/frameworks,
+					/opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks,
+					"/opt/theos/vendor/lib/**",
+					"$(PROJECT_DIR)",
+					/opt/theos/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotchificationSettings/NotchificationSettings-Prefix.pch";
+				INFOPLIST_FILE = "NotchificationSettings/NotchificationSettings-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"L360Confetti\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 arm64e";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 6s.local;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C731E49520FE73DC008DC1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5917048CCB5EF69CCF074E /* Pods-NotchificationSettings.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6DPBQA62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/frameworks,
+					/opt/theos/sdks/iPhoneOS9.3.sdk/System/Library/PrivateFrameworks,
+					"/opt/theos/vendor/lib/**",
+					"$(PROJECT_DIR)",
+					/opt/theos/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotchificationSettings/NotchificationSettings-Prefix.pch";
+				INFOPLIST_FILE = "NotchificationSettings/NotchificationSettings-Info.plist";
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"L360Confetti\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 arm64e";
+				WRAPPER_EXTENSION = bundle;
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 6s.local;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		C784CF6E20FBCB9E00F41B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Notchification-Swift.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "will-smillies-iphone.local";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C784CF6F20FBCB9E00F41B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Notchification-Swift.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "will-smillies-iphone.local";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		C784CF7120FBCB9E00F41B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6DPBQA62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/opt/theos/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notchification/Notchification-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 arm64e";
+				iOSOpenDevCopyOnBuild = YES;
+				iOSOpenDevDevice = X.local;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Debug;
+		};
+		C784CF7220FBCB9E00F41B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					arm64,
+				);
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6DPBQA62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/opt/theos/lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notchification/Notchification-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 arm64e";
+				iOSOpenDevCopyOnBuild = YES;
+				iOSOpenDevDevice = X.local;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C731E49320FE73DC008DC1FE /* Build configuration list for PBXNativeTarget "NotchificationSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C731E49420FE73DC008DC1FE /* Debug */,
+				C731E49520FE73DC008DC1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C784CF4E20FBCB9E00F41B54 /* Build configuration list for PBXProject "Notchification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C784CF6E20FBCB9E00F41B54 /* Debug */,
+				C784CF6F20FBCB9E00F41B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C784CF7020FBCB9E00F41B54 /* Build configuration list for PBXNativeTarget "Notchification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C784CF7120FBCB9E00F41B54 /* Debug */,
+				C784CF7220FBCB9E00F41B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C784CF4B20FBCB9E00F41B54 /* Project object */;
+}

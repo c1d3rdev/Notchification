@@ -1,0 +1,1 @@
+../../../INTUAnimationEngine/INTUAnimationEngine/SpringSolver/INTUSpringSolver.h

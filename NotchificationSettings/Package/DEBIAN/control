@@ -1,0 +1,15 @@
+Package: com.c1d3r.NotchificationSettings
+Name: NotchificationSettings
+Version: 1.1-5
+Description: 
+Section: PreferenceBundles
+Depends: preferenceloader
+Priority: optional
+Architecture: iphoneos-arm
+Author: c1d3r
+dev: c1d3r
+Homepage: 
+Depiction: 
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Icon: 
+

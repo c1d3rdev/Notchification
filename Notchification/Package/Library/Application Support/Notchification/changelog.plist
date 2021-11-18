@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.1</key>
+	<dict>
+		<key>🐛 Fixed Face Id Scan (again)</key>
+		<string>Hopefully it&apos;s solid now!</string>
+	</dict>
+	<key>2.1</key>
+	<dict>
+		<key>Dismiss Blackout with Lock Button</key>
+		<string>You can now dismiss blackout via the lock button</string>
+		<key>Fixed OLED Mode Bug</key>
+		<string>Fixed a bug where OLED / Blackout would would appear again the device has been woken up and blackout already dismissed</string>
+		<key>Fixed Face ID Scan</key>
+		<string>Fixed a bug where Face ID would scan while OLED mode was enabled &amp; running.</string>
+		<key>Delay OLED Mode</key>
+		<string>Added an option to delay oled / blackout presentation. You can now see the notification before OLED mode is displayed</string>
+		<key>Home Screen Loop Options</key>
+		<string>Added an option to loop on the homescreen</string>
+		<key>Cleaned Up Settings</key>
+		<string>I&apos;ve reorganized the settings a little bit to make it a little cleaner</string>
+		<key>New Animations</key>
+		<string>I&apos;ve added some new animations (Ping, Drop, Bell, and Beam) I made back when I was trying to run a Patreon page, but that was too much work ;)</string>
+		<key>Change Animation Aspect Ratio</key>
+		<string>You can now change the aspect ratio from fit to fill</string>
+	</dict>
+	<key>2.0.1</key>
+	<dict>
+		<key>Added libcolorpicker Dependency</key>
+		<string>This should make sure you have either nepeta&apos;s libcolorpicker fork, or the original from bigboss.</string>
+	</dict>
+	<key>2.0</key>
+	<dict>
+		<key>I Made This</key>
+		<string>This is the new change log, which works independently of package manager. This is where I&apos;ll tell you what I did in this version!</string>
+		<key>iOS 13 Support</key>
+		<string>Yay! It&apos;s here!</string>
+		<key>Pause FaceID</key>
+		<string>Pause the FaceID scan while the animation is being displayed in OLED/Blackout</string>
+		<key>Show in Do-Not-Disturb Mode</key>
+		<string>Added an option to show the animation while in DND</string>
+	</dict>
+</dict>
+</plist>

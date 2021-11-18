@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B25D983B5899669F3C567154A323CC9 /* L360ConfettiArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3720E85E112289E9A889237BD350D98 /* L360ConfettiArea.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49EC8FD09E234381C1AF37123D4B3D13 /* Pods-NotchificationSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E844DE0F70DA1C505FBBF4E99EB5B29 /* Pods-NotchificationSettings-dummy.m */; };
+		8C6ADB33CFC22E1863C1F422A0102AE0 /* L360Confetti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC3C558EE0B8DE9EE8C3757A894A12 /* L360Confetti-dummy.m */; };
+		9713A4060EB93DE51A9149BC01F3068E /* L360ConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6582975DB2447C9757B290A3092064EF /* L360ConfettiView.m */; };
+		A886EB57BAEA72303141BB887CD66B2A /* L360ConfettiView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3DCFFD51DC6A005366D7FD8A137C3F /* L360ConfettiView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C87625A0E018670CC3A7920DC05306A2 /* L360ConfettiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580B792B87EC7EA16103C797968E0A0 /* L360ConfettiObject.m */; };
+		D235311477C72E7851505DAFE8D49999 /* L360ConfettiArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 559CAAA4B98D037F46BA9FB50ED54AEA /* L360ConfettiArea.m */; };
+		D6D4E137BB2BAB108434DDEBED17100A /* L360ConfettiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 545EF772A33A0FD1EF4D99580434A300 /* L360ConfettiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9505F24332C1E1F48112D6A70A9C469 /* L360ConfettiAble.h in Headers */ = {isa = PBXBuildFile; fileRef = 833D43DA9267BE1EFCEC8CECFFF7CCA4 /* L360ConfettiAble.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0FC1583E1820DA8416FAF36E63BC7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA5833E1940EDC84246DEB19F2DF2CF;
+			remoteInfo = L360Confetti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0456C1ADFC735C9DF32B6372E2BFD043 /* L360Confetti-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "L360Confetti-prefix.pch"; sourceTree = "<group>"; };
+		545EF772A33A0FD1EF4D99580434A300 /* L360ConfettiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiObject.h; path = iOS/L360Confetti/L360ConfettiObject.h; sourceTree = "<group>"; };
+		559CAAA4B98D037F46BA9FB50ED54AEA /* L360ConfettiArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiArea.m; path = iOS/L360Confetti/L360ConfettiArea.m; sourceTree = "<group>"; };
+		5B42825C2754BE28256C67FEFD203D11 /* Pods-NotchificationSettings-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotchificationSettings-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FBD997E50FF0B204B4E771911647FC8 /* L360Confetti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = L360Confetti.release.xcconfig; sourceTree = "<group>"; };
+		6582975DB2447C9757B290A3092064EF /* L360ConfettiView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiView.m; path = iOS/L360Confetti/L360ConfettiView.m; sourceTree = "<group>"; };
+		833D43DA9267BE1EFCEC8CECFFF7CCA4 /* L360ConfettiAble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiAble.h; path = iOS/L360Confetti/L360ConfettiAble.h; sourceTree = "<group>"; };
+		94AC3C558EE0B8DE9EE8C3757A894A12 /* L360Confetti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "L360Confetti-dummy.m"; sourceTree = "<group>"; };
+		9580B792B87EC7EA16103C797968E0A0 /* L360ConfettiObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = L360ConfettiObject.m; path = iOS/L360Confetti/L360ConfettiObject.m; sourceTree = "<group>"; };
+		97FAEDEC79463F407964611B00B34BDC /* libPods-NotchificationSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NotchificationSettings.a"; path = "libPods-NotchificationSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A24ACA01461CDB6186BDFBFAA55B3C /* Pods-NotchificationSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchificationSettings.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E844DE0F70DA1C505FBBF4E99EB5B29 /* Pods-NotchificationSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotchificationSettings-dummy.m"; sourceTree = "<group>"; };
+		D8D7C3D1FD2EA5831DB8A39034424A0B /* Pods-NotchificationSettings-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotchificationSettings-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDE7E3C34941E7151AA56787C343D533 /* Pods-NotchificationSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchificationSettings.debug.xcconfig"; sourceTree = "<group>"; };
+		E3720E85E112289E9A889237BD350D98 /* L360ConfettiArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiArea.h; path = iOS/L360Confetti/L360ConfettiArea.h; sourceTree = "<group>"; };
+		E906B3E12306269AC464E399B7F82353 /* libL360Confetti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libL360Confetti.a; path = libL360Confetti.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF314E0823E26C25530A03EA3BB5970 /* L360Confetti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = L360Confetti.debug.xcconfig; sourceTree = "<group>"; };
+		FE3DCFFD51DC6A005366D7FD8A137C3F /* L360ConfettiView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = L360ConfettiView.h; path = iOS/L360Confetti/L360ConfettiView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4865FDC243AD6932A5F07C3078691CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB95C8D5A4C095255557989C39C7FCC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7F25F50F1005B0C5AFE00250BD8FCD /* Pods-NotchificationSettings */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7C3D1FD2EA5831DB8A39034424A0B /* Pods-NotchificationSettings-acknowledgements.markdown */,
+				5B42825C2754BE28256C67FEFD203D11 /* Pods-NotchificationSettings-acknowledgements.plist */,
+				9E844DE0F70DA1C505FBBF4E99EB5B29 /* Pods-NotchificationSettings-dummy.m */,
+				DDE7E3C34941E7151AA56787C343D533 /* Pods-NotchificationSettings.debug.xcconfig */,
+				98A24ACA01461CDB6186BDFBFAA55B3C /* Pods-NotchificationSettings.release.xcconfig */,
+			);
+			name = "Pods-NotchificationSettings";
+			path = "Target Support Files/Pods-NotchificationSettings";
+			sourceTree = "<group>";
+		};
+		4EA689175DAEC907FF49A08A7C834DD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F25F50F1005B0C5AFE00250BD8FCD /* Pods-NotchificationSettings */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74DA2E34912D43F2AE91311B75EAED91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4F04869DFC195A8390B866720723468 /* L360Confetti */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C40A4147EA5FB62E3FB218CC28FB5C02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AC3C558EE0B8DE9EE8C3757A894A12 /* L360Confetti-dummy.m */,
+				0456C1ADFC735C9DF32B6372E2BFD043 /* L360Confetti-prefix.pch */,
+				FDF314E0823E26C25530A03EA3BB5970 /* L360Confetti.debug.xcconfig */,
+				5FBD997E50FF0B204B4E771911647FC8 /* L360Confetti.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/L360Confetti";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				74DA2E34912D43F2AE91311B75EAED91 /* Pods */,
+				FE2438918E9353D9D418EF3E039E5CB7 /* Products */,
+				4EA689175DAEC907FF49A08A7C834DD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F04869DFC195A8390B866720723468 /* L360Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				833D43DA9267BE1EFCEC8CECFFF7CCA4 /* L360ConfettiAble.h */,
+				E3720E85E112289E9A889237BD350D98 /* L360ConfettiArea.h */,
+				559CAAA4B98D037F46BA9FB50ED54AEA /* L360ConfettiArea.m */,
+				545EF772A33A0FD1EF4D99580434A300 /* L360ConfettiObject.h */,
+				9580B792B87EC7EA16103C797968E0A0 /* L360ConfettiObject.m */,
+				FE3DCFFD51DC6A005366D7FD8A137C3F /* L360ConfettiView.h */,
+				6582975DB2447C9757B290A3092064EF /* L360ConfettiView.m */,
+				C40A4147EA5FB62E3FB218CC28FB5C02 /* Support Files */,
+			);
+			name = L360Confetti;
+			path = L360Confetti;
+			sourceTree = "<group>";
+		};
+		FE2438918E9353D9D418EF3E039E5CB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E906B3E12306269AC464E399B7F82353 /* libL360Confetti.a */,
+				97FAEDEC79463F407964611B00B34BDC /* libPods-NotchificationSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16650C92CE35319C055240375355181C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CA80ED1E311C138C9A2A2C625096D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9505F24332C1E1F48112D6A70A9C469 /* L360ConfettiAble.h in Headers */,
+				3B25D983B5899669F3C567154A323CC9 /* L360ConfettiArea.h in Headers */,
+				D6D4E137BB2BAB108434DDEBED17100A /* L360ConfettiObject.h in Headers */,
+				A886EB57BAEA72303141BB887CD66B2A /* L360ConfettiView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EA5833E1940EDC84246DEB19F2DF2CF /* L360Confetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555EE2D66E2FFBE8452AEBA8EA7C4F97 /* Build configuration list for PBXNativeTarget "L360Confetti" */;
+			buildPhases = (
+				D7CA80ED1E311C138C9A2A2C625096D3 /* Headers */,
+				472CDA5354A7D4D6E85F1ACBB96BC700 /* Sources */,
+				4865FDC243AD6932A5F07C3078691CAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L360Confetti;
+			productName = L360Confetti;
+			productReference = E906B3E12306269AC464E399B7F82353 /* libL360Confetti.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9879CB68152593D3C5794B14A887693 /* Pods-NotchificationSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B51253DC33593EF38AC10E32668248 /* Build configuration list for PBXNativeTarget "Pods-NotchificationSettings" */;
+			buildPhases = (
+				16650C92CE35319C055240375355181C /* Headers */,
+				4F9B8D06A57CDFAE6A2FC1CA3C0F2FDF /* Sources */,
+				BB95C8D5A4C095255557989C39C7FCC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E3C7CA9D8E85AC712C06963704527F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotchificationSettings";
+			productName = "Pods-NotchificationSettings";
+			productReference = 97FAEDEC79463F407964611B00B34BDC /* libPods-NotchificationSettings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE2438918E9353D9D418EF3E039E5CB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA5833E1940EDC84246DEB19F2DF2CF /* L360Confetti */,
+				A9879CB68152593D3C5794B14A887693 /* Pods-NotchificationSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		472CDA5354A7D4D6E85F1ACBB96BC700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6ADB33CFC22E1863C1F422A0102AE0 /* L360Confetti-dummy.m in Sources */,
+				D235311477C72E7851505DAFE8D49999 /* L360ConfettiArea.m in Sources */,
+				C87625A0E018670CC3A7920DC05306A2 /* L360ConfettiObject.m in Sources */,
+				9713A4060EB93DE51A9149BC01F3068E /* L360ConfettiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9B8D06A57CDFAE6A2FC1CA3C0F2FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC8FD09E234381C1AF37123D4B3D13 /* Pods-NotchificationSettings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E3C7CA9D8E85AC712C06963704527F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = L360Confetti;
+			target = 7EA5833E1940EDC84246DEB19F2DF2CF /* L360Confetti */;
+			targetProxy = F0FC1583E1820DA8416FAF36E63BC7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		641D503B746C28A1082C27CEFB2CB66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE7E3C34941E7151AA56787C343D533 /* Pods-NotchificationSettings.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F44E6D7294348BCEFFE93B5D5578EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A24ACA01461CDB6186BDFBFAA55B3C /* Pods-NotchificationSettings.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA477AD2BF31BF4933D39C75719133D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBD997E50FF0B204B4E771911647FC8 /* L360Confetti.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/L360Confetti/L360Confetti-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = L360Confetti;
+				PRODUCT_NAME = L360Confetti;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1C03A1DE9251910AA1D59C2D40EDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF314E0823E26C25530A03EA3BB5970 /* L360Confetti.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/L360Confetti/L360Confetti-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = L360Confetti;
+				PRODUCT_NAME = L360Confetti;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555EE2D66E2FFBE8452AEBA8EA7C4F97 /* Build configuration list for PBXNativeTarget "L360Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1C03A1DE9251910AA1D59C2D40EDBD /* Debug */,
+				CA477AD2BF31BF4933D39C75719133D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B51253DC33593EF38AC10E32668248 /* Build configuration list for PBXNativeTarget "Pods-NotchificationSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641D503B746C28A1082C27CEFB2CB66B /* Debug */,
+				7F44E6D7294348BCEFFE93B5D5578EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

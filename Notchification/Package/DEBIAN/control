@@ -1,0 +1,17 @@
+Package: com.c1d3r.Notchification
+Name: Notchification
+Version: 2.2.1
+Description: Beautiful animated notifications for all device
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate, applist, preferenceloader, org.thebigboss.libcolorpicker | me.nepeta.libcolorpicker
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: c1d3r
+dev: 
+Homepage: 
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.Notchification
+Maintainer: c1d3r
+Icon: 
+
